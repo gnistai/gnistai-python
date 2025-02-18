@@ -8,6 +8,7 @@ The REST API documentation can be found on [gnist.ai/api/docs](https://gnist.ai/
 # Usage
 
 ```python
+import os
 from gnistai import GnistAI
 
 client = GnistAI(api_key=os.environ.get("GNISTAI_API_KEY"))
