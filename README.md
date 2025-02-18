@@ -8,7 +8,7 @@ The REST API documentation can be found on [gnist.ai/api/docs](https://gnist.ai/
 # Usage
 
 ```python
-from gnistai.client import GnistAI
+from gnistai import GnistAI
 
 client = GnistAI(api_key=os.environ.get("GNISTAI_API_KEY"))
 health_status = client.health_check()
