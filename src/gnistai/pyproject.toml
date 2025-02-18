@@ -1,0 +1,23 @@
+[project]
+name = "gnistai"
+version = "0.0.1"
+authors = [
+  { name="GnistAI", email="office@gnist.ai" },
+]
+dependencies = [
+    "requests>=2.32.3, <3",
+]
+description = "The official Python library for the GnistAI API"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://gnist.ai/api/docs"
+Repository = "https://github.com/gnistai/gnistai-python"
+Issues = "https://github.com/gnistai/gnistai-python/issues"
