@@ -3,8 +3,6 @@
 The GnistAI Python library provides convenient access to the GnistAI REST API from any Python 3.11+
 application.
 
-The REST API documentation can be found on [gnist.ai/api/docs](https://gnist.ai/api/docs).
-
 # Usage
 
 ```python
